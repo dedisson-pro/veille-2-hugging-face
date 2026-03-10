@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Veille – Hugging Face</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🤗 Veille – Hugging Face</h1>
+    <p>Présentation simple et claire de la plateforme</p>
+</header>
+
+<nav>
+    <a href="#quoi">C’est quoi ?</a>
+    <a href="#fonctionnalites">Fonctionnalités</a>
+    <a href="#utilisations">Ce qu’on peut faire</a>
+    <a href="#creer">Créer un projet</a>
+</nav>
+
+<section id="quoi">
+    <h2>1. C’est quoi Hugging Face ?</h2>
+    <p>
+        Hugging Face est une plateforme d’intelligence artificielle et de machine learning
+        qui permet à la communauté de partager, découvrir et utiliser des modèles IA
+        pré‑entraînés, des jeux de données et des applications. Elle est souvent
+        comparée à un “GitHub pour les modèles IA” car elle favorise la collaboration
+        et la réutilisation de ressources open source. :contentReference[oaicite:0]{index=0}
+    </p>
+</section>
+
+<section id="fonctionnalites">
+    <h2>2. Quelles sont les fonctionnalités de Hugging Face ?</h2>
+    <ul>
+        <li><strong>Model Hub</strong> – un grand dépôt de milliers de modèles IA. :contentReference[oaicite:1]{index=1}</li>
+        <li><strong>Datasets</strong> – une bibliothèque de jeux de données ready‑to‑use. :contentReference[oaicite:2]{index=2}</li>
+        <li><strong>Spaces</strong> – interface pour créer des applications IA interactives. :contentReference[oaicite:3]{index=3}</li>
+        <li><strong>Transformers</strong> – bibliothèque Python pour IA et NLP. :contentReference[oaicite:4]{index=4}</li>
+    </ul>
+</section>
+
+<section id="utilisations">
+    <h2>3. Qu’est‑ce que Hugging Face permet réellement de faire ?</h2>
+    <ul>
+        <li>🔎 Utiliser des modèles IA déjà entraînés (texte, images, audio). :contentReference[oaicite:5]{index=5}</li>
+        <li>🔁 Fine‑tuner (adapter) ces modèles à ton jeu de données. :contentReference[oaicite:6]{index=6}</li>
+        <li>🚀 Déployer des applications d’IA interactives via Spaces. :contentReference[oaicite:7]{index=7}</li>
+        <li>🧠 Explorer et partager jeux de données et modèles dans la communauté. :contentReference[oaicite:8]{index=8}</li>
+    </ul>
+</section>
+
+<section id="creer">
+    <h2>4. Comment créer son premier projet avec Hugging Face ?</h2>
+    <ol>
+        <li>👉 Crée un compte sur huggingface.co.</li>
+        <li>👉 Explore les modèles disponibles dans le “Model Hub”. :contentReference[oaicite:9]{index=9}</li>
+        <li>👉 Installe la bibliothèque Transformer en Python :
+            <pre><code>pip install transformers datasets</code></pre>
+        </li>
+        <li>👉 Utilise un modèle dans ton code :
+            <pre><code>from transformers import pipeline
+classifier = pipeline("sentiment-analysis")
+print(classifier("J’aime Hugging Face !"))</code></pre>
+        </li>
+        <li>👉 (Optionnel) Crée un <strong>Space</strong> pour ton projet avec Gradio ou Streamlit. :contentReference[oaicite:10]{index=10}</li>
+    </ol>
+</section>
+
+<footer>
+    <p>Veille IA – Hugging Face | 2026</p>
+</footer>
+
+</body>
+</html>
